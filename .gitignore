@@ -5,3 +5,11 @@
 /resources/
 public/
 .Rproj.user
+
+README.md
+
+exampleSite/
+
+update_wowchemy.sh
+
+view.sh
