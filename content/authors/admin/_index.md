@@ -69,4 +69,4 @@ user_groups:
 ---
 Hi, my name is Nalin. 
 
-Equipped with a highly quantitative background and a flair for analyzing data, I'm an aspiring data scientist. 
+Equipped with a highly quantitative background and a flair for analyzing data, I'm an aspiring data scientist.
