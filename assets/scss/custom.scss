@@ -32,7 +32,7 @@
 .navbar {
   height: 70px;
   background: $sta-menu-primary;
-  background-image: url(/img/otis-redding.png);
+  //background-image: url(/img/otis-redding.png);
   box-shadow: none;
   font-size: 18px;
   font-weight: 900 !important;
@@ -61,7 +61,7 @@
       .navbar-nav {
         overflow-x: auto;
         white-space: nowrap;
-        background-image: url(/img/otis-redding.png);
+        //background-image: url(/img/otis-redding.png);
         -webkit-overflow-scrolling: touch;
       }
     }
@@ -526,33 +526,6 @@
   border-color: $sta-menu_primary;
   background-color: #0D9F5F !important;
   justify-content: center;
-}
-
-/*************************************************
- *  Add background image (grainy look)
- **************************************************/
-
-body {
-  font-family: inherit;
-  font-size: 1rem;
-  line-height: inherit;
-  color: inherit;
-  background-color: $sta-background;
-  background-image: url(/img/otis-redding.png);
-  background-attachment: fixed;
-  margin-top: 70px; /* Offset body content by navbar height. */
-  padding-top: 0;
-  counter-reset: captions;
-}
-@include media-breakpoint-down(md) { /* Match max-width of .nav-bar query. */
-  body {
-    margin-top: 50px; /* Offset body content by navbar height. */
-  }
-}
-
-/* homepage */
-.home-section {
-  background-image: url('/img/otis-redding.png');
 }
 
 /*************************************************
