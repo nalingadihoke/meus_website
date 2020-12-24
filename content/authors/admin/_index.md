@@ -22,7 +22,7 @@ role: 💻 | ⚛
 
 interests:
 - Data Analytics
-- Database Management
+- Database Management BLAH BLAH BLAH
 - Probabilistic Risk Assessment
 - Web Scraping
 - System Dynamics
