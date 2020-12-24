@@ -1,3 +1,5 @@
+<!-- Current about widget -->
+
 {{ $ := .root }}
 {{ $page := .page }}
 
@@ -17,32 +19,36 @@
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
 {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
 
+<!-- stylesheet from https://animate.style -->
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+</head>
+
 <!-- About widget -->
+<div class="about-widget">
 <div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
+  <div class="about-avatar col-12 col-lg-4">
+    <br>
+    {{ $avatar_image := $avatar.Fill "250x250 Center" }}
+    <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
+  </div>
+  <div class="col-12 col-lg-8 card-about-outer">
+    <h1 class="about-name"></h1>
+      <div class="card-about" style="padding:1rem;padding-bottom:0.25rem;">
+        Hi, my name is Nalin.
+        <br>
+        <br>
+        Equipped with a highly quantitative background and a flair for analyzing data, I'm an aspiring data scientist.
+        <br>
 
-      {{ if site.Params.avatar.gravatar }}
-      <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="{{$person_page.Title}}">
-      {{ else if $avatar }}
-      {{ $avatar_image := $avatar.Fill "270x270 Center" }}
-      <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
-      {{ end }}
 
-      <div class="portrait-title">
-        <h2>{{ $person_page.Title }}</h2>
-        {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
 
-        {{ range $person.organizations }}
-        <h3>
-          {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
-          <span>{{ .name }}</span>
-          {{ if .url }}</a>{{ end }}
-        </h3>
-        {{ end }}
-      </div>
+        <br>
 
-      <ul class="network-icon" aria-hidden="true">
+        <ul class="network-icon" aria-hidden="true">
         {{ range $person.social }}
         {{ $pack := or .icon_pack "fas" }}
         {{ $pack_prefix := $pack }}
@@ -64,48 +70,8 @@
         </li>
         {{ end }}
       </ul>
-
-    </div>
-  </div>
-  <div class="col-12 col-lg-8">
-
-    {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
-    {{ if and $page.Params.widget $page.Title }}<h1 class='biography-title'>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
-
-  <div class='main-content'>
-    {{ $person_page.Content }}
-  </div>
-
-    <div class="row">
-
-      {{ with $person.interests }}
-      <div class="interests-div col-md-5">
-        <h3>{{ i18n "interests" | markdownify }}</h3>
-        <ul class="ul-interests">
-          {{ range . }}
-          <li>{{ . | markdownify | emojify }}</li>
-          {{ end }}
-        </ul>
       </div>
-      {{ end }}
-
-      {{ with $person.education }}
-      <div class="education-div col-md-7">
-        <h3>{{ i18n "education" | markdownify }}</h3>
-        <ul class="ul-edu fa-ul">
-          {{ range .courses }}
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-              <p class="institution">{{ .institution }}</p>
-            </div>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-
-    </div>
   </div>
+
+</div>
 </div>
