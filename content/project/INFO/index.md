@@ -1,8 +1,9 @@
 ---
-title: INFO PROJECTS TBD
-summary: An example of using the in-built project page.
-#tags:
-#- INSERT TAG
+title: Plotting Potter
+summary: Automatically identifying the names of all characters in a novel ... and visualizing character mentions
+tags:
+- Data Visualization
+- Text Analysis
 date: "2016-04-27T00:00:00Z"
 share: false
 
@@ -10,7 +11,7 @@ share: false
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: INSERT CAPTION
   focal_point: Smart
 
 links:
@@ -32,3 +33,5 @@ url_video: ""
 ---
 
 insert
+
+{{< figure src="mentions_chapter.png" title="insert caption" lightbox="true" >}}

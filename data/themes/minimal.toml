@@ -1,22 +1,22 @@
 # Theme metadata
-name = "isabella"
+name = "minimal"
 
 # Is theme light or dark?
 light = true
 
 # Primary
-primary = "#EF476F"
+primary = "#52b788"
 
 # Menu
-menu_primary = "#F7F7F7"
-menu_text = "#FCA311"
-menu_text_active = "#0EAD69"
-menu_title = "#118AB2"
+menu_primary = "#edf6f9"
+menu_text = "#52b788"
+menu_text_active = "#52b788"
+menu_title = "#52b788"
 
 # Backgrounds
-background = "#F7F7F7"
-home_section_odd = "#F7F7F7"
-home_section_even = "#F7F7F7"
+background = "#edf6f9"
+home_section_odd = "#edf6f9"
+home_section_even = "#edf6f9"
 
 # font = "rose"
 link = "#D90429"

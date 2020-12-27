@@ -1,8 +1,9 @@
 ---
-title: Solving the Neutron Diffusion Equation
-summary: INSERT
-#tags:
-#- INSERT TAG
+title: Analyzing my Fitbit data
+summary: Visualizing the health effects of an online semester during the pandemic ... and finding out the factors behind weight loss.
+tags:
+- Data Visualization
+- ML
 date: "2016-04-27T00:00:00Z"
 share: false
 
@@ -10,7 +11,7 @@ share: false
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: INSERT CAPTION
   focal_point: Smart
 
 links:

@@ -1,8 +1,8 @@
 ---
 title: Financial Impact of COVID-19
-summary: INSERT
-#tags:
-#- INSERT TAG
+summary: Financial Impact of COVID-19
+tags:
+- Data Extraction
 date: "2016-04-27T00:00:00Z"
 share: false
 

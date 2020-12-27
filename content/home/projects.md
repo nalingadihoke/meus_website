@@ -21,17 +21,30 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
-  #[[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
+  [[content.filter_button]]
+     name = "All"
+     tag = "*"
   
-  #[[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
-  
-  # [[content.filter_button]]
-  #   name = "Other"
-  #   tag = "Demo"
+  [[content.filter_button]]
+     name = "Data Visualization"
+     tag = "Data Visualization"
+     
+  [[content.filter_button]]
+     name = "ML"
+     tag = "ML"
+     
+  [[content.filter_button]]
+     name = "Data Extraction"
+     tag = "Data Extraction"
+     
+  [[content.filter_button]]
+     name = "Data Cleaning"
+     tag = "Data Cleaning"
+     
+  [[content.filter_button]]
+     name = "Misc"
+     tag = "Misc"
+
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -53,12 +66,12 @@ subtitle = ""
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
   
-  # Background color.
-  # color = "navy"
+  #Background color.
+  #color = "navy"
   
   # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
+  gradient_start = "#edf6f9"
+  gradient_end = "SkyBlue"
   
   # Background image.
   # image = "background.jpg"  # Name of image in `static/media/`.

@@ -1,8 +1,8 @@
 ---
-title: Pythonic Linear Algebra
-summary: INSERT
-#tags:
-#- INSERT TAG
+title: AI chatbot
+summary: building a contextual chatbot with Tensorflow and deploying it in Messenger
+tags:
+- ML
 date: "2016-04-27T00:00:00Z"
 share: false
 
@@ -10,7 +10,7 @@ share: false
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: INSERT CAPTION
   focal_point: Smart
 
 links:
