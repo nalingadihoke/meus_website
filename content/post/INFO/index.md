@@ -1,17 +1,17 @@
 ---
-title: NSF Big-Data Theoretic
-summary: Extracting and cleaning Event Reports (OCR text data) from Nuclear Power Plants in the U.S.
+title: Plotting Potter
+summary: Automatically identifying the names of all characters in a novel ... and visualizing character mentions
 tags:
-- Data Cleaning
-- Data Extraction
-date: "2020-01-31"
+- Data Visualization
+- Text Analysis
+date: "2016-04-27T00:00:00Z"
 share: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: /post/nsf-data-theoretic/
+external_link: ""
 
 image:
-  caption: 
+  caption: INSERT CAPTION
   focal_point: Smart
 
 links:
@@ -31,3 +31,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
+
+insert
+
+{{< figure src="mentions_chapter.png" title="insert caption" lightbox="true" >}}

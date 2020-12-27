@@ -1,17 +1,17 @@
 ---
-title: NSF Big-Data Theoretic
-summary: Extracting and cleaning Event Reports (OCR text data) from Nuclear Power Plants in the U.S.
+title: Modelling nuclear systems
+summary: Simulating nuclear systems using the finite difference approach
 tags:
-- Data Cleaning
-- Data Extraction
-date: "2020-01-31"
+- Misc
+- Data Visualization
+date: "2016-04-27T00:00:00Z"
 share: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: /post/nsf-data-theoretic/
+external_link: ""
 
 image:
-  caption: 
+  caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
 links:
@@ -31,3 +31,13 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
+
+insert
+
+{{< figure src="pwr.png" title="may remove and link PWR" lightbox="true" >}}
+
+{{< figure src="fuel_clad.gif" title="insert caption" lightbox="true" >}}
+
+{{< figure src="thermo.png" title="insert caption" lightbox="true" >}}
+
+{{< figure src="455_cp3.png" title="insert caption" lightbox="true" >}}

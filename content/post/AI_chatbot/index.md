@@ -1,17 +1,16 @@
 ---
-title: NSF Big-Data Theoretic
-summary: Extracting and cleaning Event Reports (OCR text data) from Nuclear Power Plants in the U.S.
+title: AI chatbot
+summary: building a contextual chatbot with Tensorflow and deploying it in Messenger
 tags:
-- Data Cleaning
-- Data Extraction
-date: "2020-01-31"
+- ML
+date: "2016-04-27T00:00:00Z"
 share: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: /post/nsf-data-theoretic/
+external_link: ""
 
 image:
-  caption: 
+  caption: INSERT CAPTION
   focal_point: Smart
 
 links:
@@ -31,3 +30,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
+
+insert

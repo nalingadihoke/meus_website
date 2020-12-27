@@ -149,7 +149,7 @@ address_format = "en-us"
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "l", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = true, show_search = true}
+main_menu = {align = "l", show_logo = false, highlight_active_link = true, show_language = false, show_search = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -216,7 +216,7 @@ plugins_js  = []
   engine = 0
 
   # Which page types are commentable?
-  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
+  commentable = {page = true, post = true, docs = true, project = false, publication = true, talk = true}
 
   # Configuration of Disqus.
   [comments.disqus]
