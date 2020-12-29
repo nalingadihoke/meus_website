@@ -23,6 +23,8 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 
+
+
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
@@ -31,7 +33,7 @@ url_video: ""
 #slides: example
 ---
 
-One amazing resource online that will never cease to amaze me is [Project Gutenberg](https://www.gutenberg.org/). From my friends in the political sciences to those in literature, and of course, data scientists … many have found what they seek on this website. Project Gutenburg is a collection of tens of thousands of classics and “cultural works” all available for free, utilizing books in the public domain. Its utility to other majors is understandable. People wanting to utilize the text available there for text analysis find its ease of access appealing.
+One amazing resource online that will never cease to amaze me is [Project Gutenberg](https://www.gutenberg.org/). From my friends in the political sciences to those in literature, and of course, data scientists … many have found what they seek on this website. Project Gutenburg is a collection of tens of thousands of classics and “cultural works” all available for free, utilizing books in the public domain. Its utility to other majors is understandable. The ease of access to the text is especially appealing to data analysts.
 
 ## Remote I/O
 
