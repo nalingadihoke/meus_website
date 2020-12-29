@@ -7,7 +7,7 @@ date: "2016-04-27T00:00:00Z"
 share: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: /post/linalg/
 
 image:
   caption: INSERT CAPTION
@@ -31,22 +31,4 @@ url_video: ""
 #slides: example
 ---
 
-insert
 
-{{< figure src="pca_example.png" title="insert caption" lightbox="true" >}}
-
-insert
-
-{{< figure src="temp_timeseries.png" title="insert caption" lightbox="true" >}}
-
-{{< figure src="norm_timeseries.png" title="insert caption" lightbox="true" >}}
-
-{{< figure src="timeseries_pca.png" title="insert caption" lightbox="true" >}}
-
-{{< figure src="combined_face.png" title="insert caption" lightbox="true" >}}
-
-{{< figure src="not_trained.png" title="insert caption" lightbox="true" >}}
-
-{{< figure src="average_nottrained.png" title="insert caption" lightbox="true" >}}
-
-{{< figure src="prediction.png" title="insert caption" lightbox="true" >}}
