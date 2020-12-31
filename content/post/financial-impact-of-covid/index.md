@@ -1,9 +1,9 @@
 ---
 title: Financial Impact of COVID-19
 summary: Financial Impact of COVID-19
-tags:
-- Data Extraction
-date: "2016-04-27T00:00:00Z"
+tags: [Data Extraction]
+categories: [Data Management, SQL, pandas, parallel computing, cloud computing]
+date: "2020-07-06"
 share: false
 
 # Optional external URL for project (replaces project detail page).
@@ -31,4 +31,6 @@ url_video: ""
 #slides: example
 ---
 
-insert
+As part of Prof. Wang's team, one of my first major tasks was to automate the extraction of bankruptcy data, for the duration of the pandemic, using a web scraper. Selenium Webdriver API and Beautiful Soup, both were used to scrape the [Bloomberg Law](https://news.bloomberglaw.com/) website for Chapter 11, 13, 12 and 7 bankruptcy data. My primary work now is on data management using dask for parallel computing to index millions of transaction data points in pandas.
+
+Since it is ongoing research I can't go into more detail; check out my other [projects](https://www.nalingadihoke.com/#projects).

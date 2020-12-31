@@ -10,7 +10,7 @@ share: false
 
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: 
 
 image:
   caption: INSERT CAPTION
@@ -34,4 +34,4 @@ url_video: ""
 #slides: example
 ---
 
-insert
+Coming Soon.

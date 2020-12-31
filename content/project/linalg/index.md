@@ -1,16 +1,16 @@
 ---
-title: Pythonic applications of Linear Algebra
-summary: Face recognition using Principal Component Analysis
+title: Face Recognition using PCA
+summary: and some other pythonic applications of linear algebra
 tags:
 - ML
-date: "2016-04-27T00:00:00Z"
+date: "2020-11-30"
 share: false
 
 # Optional external URL for project (replaces project detail page).
 external_link: /post/linalg/
 
 image:
-  caption: INSERT CAPTION
+  caption:
   focal_point: Smart
 
 links:

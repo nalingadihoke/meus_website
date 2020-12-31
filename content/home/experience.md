@@ -20,19 +20,15 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Gies College of Business, UIUC"
-  company = "Research Assistant (prof. Jialan wang)"
+  company = "Research Assistant (prof. [Jialan wang]())"
   company_url = ""
   location = "Champaign, IL"
   date_start = "2020-07-01"
   date_end = ""
   description = """
-  • Automated the extraction of bankruptcy data using a web scraper for the duration of the pandemic
   
-  • Analyzed the financial impact of covid-19 in the US through researching data on consumer finance indicators for theorizing econometric models       and helped identify the most important research questions the data can address
+  • Joined Prof. Wang's team in summer 2020 to analyze data. Involved with the 'Finanial Impact of Covid-19' project data management.    Details of my [involvement](https://www.nalingadihoke.com/post/financial-impact-of-covid/).
   
-  • Modelled more accurate analytics of compliance with state payday loan regulations by carrying out news and academic searches
-  
-  • Managed administrative tasks such as scheduling conferences, current news searches and guiding new RAs in the group
   """
 
 [[experience]]
@@ -41,30 +37,30 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Champaign"
   date_start = "2017-07-01"
-  date_end = ""
+  date_end = "2020-12-18"
   description = """
-  • Conducted office hours, answered student questions on piazza and helped in conducting labs for Introduction to Engineering Programming
+  • Conducted office hours, answered student questions on piazza and helped in conducting labs for Introduction to Engineering Programming.
   
-  • Mentored sections of 30+ students throughout the course on Python, data structures, plotting, matlab and best programming practices
+  • Mentored sections of 30+ students throughout the course on Python, data structures, plotting, matlab and best programming practices.
   
-  • Assisted in course operations and implementation of changes in coursework due to the education system shifting online
+  • Assisted in course operations and implementation of changes in coursework due to the education system shifting online.
   """
   
   [[experience]]
-  title = "SoTeRiA Lab"
+  title = "[SoTeRiA Lab](https://soteria.npre.illinois.edu/)"
   company = "Research Analyst"
   company_url = ""
   location = "Champaign"
   date_start = "2018-02-01"
   date_end = "2019-01-01"
   description = """
-  • Performed data analysis and exploratory research on Probabilistic Risk Assessment (PRA) in the Socio-Technical Risk Analysis Research Laboratory     in the Department of Nuclear, Plasma, and Radiological Engineering
+  • Performed data analysis and exploratory research on Probabilistic Risk Assessment (PRA) in the Socio-Technical Risk Analysis Research Laboratory     in the Department of Nuclear, Plasma, and Radiological Engineering.
   
-  • Integrated Bayesian Belief Networks BayesPy and System Dynamics (PySD, Vensim) techniques for Level-3 PRA using Python
+  • Integrated Bayesian Belief Networks BayesPy and System Dynamics (PySD, Vensim) techniques for Level-3 PRA using Python.
   
-  • Contributed to the “Big-Data Theoretic” project funded by the NSF and was acknowledged in two journal articles and one Ph.D. dissertation
+  • Contributed to the “Big-Data Theoretic” project funded by the NSF and was acknowledged in two journal articles (more info in the [projects](https://www.nalingadihoke.com/post/nsf-data-theoretic/) section). 
   
-  • Carried out comprehensive literature reviews on data mining for risk analysis and delivered presentations to iSchool collaborators
+  • Carried out comprehensive literature reviews on data mining for risk analysis and delivered presentations to iSchool collaborators.
   """
 
 +++

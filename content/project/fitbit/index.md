@@ -1,17 +1,17 @@
 ---
 title: Analyzing my Fitbit data
-summary: Visualizing the health effects of an online semester during the pandemic ... and finding out the factors behind weight loss.
+summary: Visualizing the health effects of an online semester during the pandemic ... and finding out the factors behind weight loss. (in progress, coming soon)
 tags:
 - Data Visualization
 - ML
-date: "2016-04-27T00:00:00Z"
+date: "2021-01-15"
 share: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: https://www.nalingadihoke.com/#projects
 
 image:
-  caption: INSERT CAPTION
+  caption: 
   focal_point: Smart
 
 links:
@@ -32,4 +32,4 @@ url_video: ""
 #slides: example
 ---
 
-insert
+

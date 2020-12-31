@@ -3,7 +3,7 @@ title: Plotting Potter
 summary: Automatically identifying the names of all characters in a novel ... and visualizing character mentions
 tags: [Data Visualization, Text Analysis]
 categories: [regex, nlp, seaborn, nltk]
-date: "2016-04-27T00:00:00Z"
+date: "2020-10-05"
 share: false
 
 # Optional external URL for project (replaces project detail page).
@@ -33,7 +33,7 @@ url_video: ""
 #slides: example
 ---
 
-One amazing resource online that will never cease to amaze me is [Project Gutenberg](https://www.gutenberg.org/). From my friends in the political sciences to those in literature, and of course, data scientists … many have found what they seek on this website. Project Gutenburg is a collection of tens of thousands of classics and “cultural works” all available for free, utilizing books in the public domain. Its utility to other majors is understandable. The ease of access to the text is especially appealing to data analysts.
+One resource online that will never cease to amaze me is [Project Gutenberg](https://www.gutenberg.org/). From my friends in the political sciences to those in literature, and of course, data scientists … many have found what they seek on this website. Project Gutenburg is a collection of tens of thousands of classics 📚 and “cultural works” all available for free, utilizing books in the public domain. Its utility to other majors is understandable. The ease of access to the text is especially appealing to data analysts.
 
 ## Remote I/O
 
@@ -42,6 +42,8 @@ Although there is a python library called Gutenberg available (check it [out](ht
 > Make sure to use the url for the .txt version of a file on the website.
 
 ## Processing
+
+🐍
 
 The end goal of such a task is to run any novel through the algorithm and the end result should be the names of the main characters in a novel. There are primarily two ways one can go about this.
 
@@ -96,15 +98,15 @@ v = [('Harry', 1247), ('Ron', 409), ('Hagrid', 255), ('Hermione', 228), ('Snape'
 {{< figure src="mentions_chapter.png" title="mentions vs chapters" lightbox="true" >}}
 
 
-Before plotting, the book text was split into chapters. This can be done quite easily since the chapter markings follow a repeated pattern. Next, for five of the characters, the *cumulative* occurrences through the chapters were counted and plotted. 
+Before plotting, he book text needs to be split into chapters. This can be done quite easily since the chapter markings follow a repeated pattern. Next, for five of the characters, the *cumulative* occurrences through the chapters were counted and plotted. 
 
 It would be an interesting problem to think about how to find the occurances of Voldemort since he is a main character in the book, but appears by another name. 🤔
 
-I would aike to thank Prof. [Michael Haberman](https://ischool.illinois.edu/people/michael-haberman) for teaching a wonderful data science programming [course](https://uicourses.web.illinois.edu/info490mh/syllabus/).
+I would aikl to thank Prof. [Michael Haberman](https://ischool.illinois.edu/people/michael-haberman) for teaching a wonderful data science programming [course](https://uicourses.web.illinois.edu/info490mh/syllabus/).
 
 Further Reading:
 
 1.	What exactly is [Named Entity Recognition](https://towardsdatascience.com/named-entity-recognition-with-nltk-and-spacy-8c4a7d88e7da)?
 2.	Different ways to [tokenize](https://towardsdatascience.com/benchmarking-python-nlp-tokenizers-3ac4735100c5) text.
-3.	A great resource for those interested in [regex](https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html#:~:text=Regular%20expressions%20(at%20least%20PCRE)%20can%20match%20all%20context%2D,least%20some%20context%2Dsensitive%20languages.&text=As%20such%20you%20can%20solve%20any%20other%20NP%20problem%20using%20regular%20expressions.)
+3.	A great resource for those interested in [regex](https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html#:~:text=Regular%20expressions%20(at%20least%20PCRE)%20can%20match%20all%20context%2D,least%20some%20context%2Dsensitive%20languages.&text=As%20such%20you%20can%20solve%20any%20other%20NP%20problem%20using%20regular%20expressions.).
 

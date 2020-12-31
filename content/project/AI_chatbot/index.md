@@ -1,16 +1,16 @@
 ---
 title: AI chatbot
-summary: building a contextual chatbot with Tensorflow and deploying it in Messenger
+summary: building a contextual chatbot with Tensorflow and deploying it in Messenger (coming soon)
 tags:
 - ML
 date: "2016-04-27T00:00:00Z"
 share: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: https://www.nalingadihoke.com/#projects
 
 image:
-  caption: INSERT CAPTION
+  caption:
   focal_point: Smart
 
 links:
@@ -31,4 +31,3 @@ url_video: ""
 #slides: example
 ---
 
-insert

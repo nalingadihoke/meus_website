@@ -1,14 +1,14 @@
 ---
-title: Modelling nuclear systems
-summary: Simulating nuclear systems using the finite difference approach
+title: Modelling Radioactive Decay
+summary: Simulating a three step radioactive decay chain with the finite difference approach using ***numpy***
 tags:
 - Misc
 - Data Visualization
-date: "2016-04-27T00:00:00Z"
+date: "2019-07-31"
 share: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: /post/nuclear-modelling/
 
 image:
   caption: Photo by rawpixel on Unsplash
@@ -32,12 +32,3 @@ url_video: ""
 #slides: example
 ---
 
-insert
-
-{{< figure src="pwr.png" title="may remove and link PWR" lightbox="true" >}}
-
-{{< figure src="fuel_clad.gif" title="insert caption" lightbox="true" >}}
-
-{{< figure src="thermo.png" title="insert caption" lightbox="true" >}}
-
-{{< figure src="455_cp3.png" title="insert caption" lightbox="true" >}}

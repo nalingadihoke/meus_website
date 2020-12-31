@@ -5,19 +5,19 @@ name = "minimal"
 light = true
 
 # Primary
-primary = "#52b788"
+primary = "#2a9d8f"
 
 # Menu
-menu_primary = "#edf6f9"
-menu_text = "#52b788"
-menu_text_active = "#52b788"
-menu_title = "#52b788"
+menu_primary = "#ffffff"
+menu_text = "#2a9d8f"
+menu_text_active = "#f4a261"
+menu_title = "#1d6e63"
 
 # Backgrounds
-background = "#edf6f9"
-home_section_odd = "#edf6f9"
-home_section_even = "#edf6f9"
+background = "#ffffff"
+home_section_odd = "#ffffff"
+home_section_even = "rgb(247, 247, 247)"
 
 # font = "rose"
-link = "#D90429"
-link_hover = "#118AB2"
+link = "#d30e70"
+link_hover = "#d30e70"

@@ -1,0 +1,14 @@
+# The Native Font Theme provides optimum text rendering on every device and OS.
+# Note that the native font families are automatically populated by Academic.
+
+# Font style metadata
+name = "Native"
+
+# Optional Google font URL
+google_fonts = "Fira+Code|Inter|Miriam+Libre:wght@400;700|Karla|DM+Mono|Work+Sans|Calistoga"
+
+# Font families
+heading_font = "Inter"
+body_font = "Inter"
+nav_font = "Karla"
+mono_font = "DM Mono"

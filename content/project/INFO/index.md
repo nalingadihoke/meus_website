@@ -1,17 +1,17 @@
 ---
 title: Plotting Potter
-summary: Automatically identifying the names of all characters in a novel ... and visualizing character mentions
+summary: Automatically identifying the names of all characters in **Harry potter** ... and visualizing character mentions
 tags:
 - Data Visualization
 - Text Analysis
-date: "2016-04-27T00:00:00Z"
+date: "2020-10-5"
 share: false
 
 # Optional external URL for project (replaces project detail page).
 external_link: /post/info/
 
 image:
-  caption: INSERT CAPTION
+  caption:
   focal_point: Smart
 
 links:
@@ -32,6 +32,3 @@ url_video: ""
 #slides: example
 ---
 
-insert
-
-{{< figure src="mentions_chapter.png" title="insert caption" lightbox="true" >}}

@@ -3,7 +3,7 @@ title: Pythonic applications of Linear Algebra
 summary: Face recognition using Principal Component Analysis
 tags: [ML]
 categories: [PCA, linalg, ML, numpy]
-date: "2016-04-27T00:00:00Z"
+date: "2020-11-30"
 share: false
 
 # Optional external URL for project (replaces project detail page).
@@ -47,7 +47,7 @@ For this analysis I used, AT&T Laboratories Cambridge's “[Database of Faces](h
 
 {{< figure src="combined_face.png" title="" lightbox="true" >}}
 
-Using SVD, we can calculate the eigenbasis of the desired covariance matrix. 
+Using `SVD`, we can calculate the eigenbasis of the desired covariance matrix. 
 
 ```sh
 U, S, Vt = la.svd(faces_zero_centered, full_matrices=False)
@@ -65,7 +65,7 @@ unknown_basis = unknown_zero_centered @ V
 faces_basis = faces_zero_centered @ V
 ```
 
-To match an existing image, the “closest” face in the face basis will be selected on the basis of least distance between the vectors.
+To match an existing image, the `“closest”` face in the face basis will be selected on the basis of least distance between the vectors.
 
 ```sh
 n = 0
@@ -83,7 +83,7 @@ The above demonstration was a simple implementation of PCA on a data set of imag
 
 {{< figure src="time_combined.png" title="" lightbox="true" >}}
 
-PCA can be used to split up various timeseries too. In the image below, the temperature data for six US cities is plotted (top left). Next, The average is subtracted to zero center the data like in the steps above (top right). Finally, the data is broken into its top two PCs (bottom). 
+`PCA` can be used to split up various timeseries too. In the image below, the temperature data for six US cities is plotted (top left). Next, The average is subtracted to zero center the data like in the steps above (top right). Finally, the data is broken into its top two PCs (bottom). 
 
 ```sh
 # zero center the data
