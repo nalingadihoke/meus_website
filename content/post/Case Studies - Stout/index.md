@@ -37,7 +37,7 @@ Below is a table containing the desired metrics (scrollable).
 |           2016 |            2015 |                         204,646 |                          231,294 |          136,891 |           163,539 |                67,755 |                              8,524,576.69 |                               8,485,533.04	 |                            39,043.7 |                   20,551,216.15 |                  25,730,943.59 |            17,206,366.90 |
 |           2017 |            2016 |                         249,987 |                          204,646 |          173,449 |           128,108 |                76,538 |                              9,648,282.02	 |                               9,584,424.96 |                            63,857.1 |                   16,146,518.63 |                  31,417,495.03 |            21,769,213.01 |
 
-Note:  
+Note:   
 
 For the current year of 2015, existing customers and their revenue from the previous year was assumed to be zero. Additionally, revenue lost from attrition was interpreted to be total revenue from previous year from customers lost (no longer in current year).
 
