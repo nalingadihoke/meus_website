@@ -22,11 +22,12 @@ date_format = "Jan 2006"
   title = "[Stout, LLC](https://www.stout.com/en/)"
   company = "Data Analyst Intern"
   company_url = ""
-  location = "Champaign, IL"
+  location = "Chicago, IL"
   date_start = "2021-08-02"
   date_end = ""
   description = """
 
+• Created a dashboard in PowerBI for analyzing 2M healthcare (prescription) data points with version control in Azure DevOps
   
   """
 
