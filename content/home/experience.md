@@ -19,12 +19,24 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "[Stout, LLC](https://www.stout.com/en/)"
+  company = "Data Analyst Intern"
+  company_url = ""
+  location = "Champaign, IL"
+  date_start = "2021-08-02"
+  date_end = ""
+  description = """
+
+  
+  """
+
+[[experience]]
   title = "Gies College of Business, UIUC"
-  company = "Research Assistant (prof. [Jialan wang]())"
+  company = "Research Assistant (prof. [Jialan wang](https://giesbusiness.illinois.edu/profile/jialan-wang))"
   company_url = ""
   location = "Champaign, IL"
   date_start = "2020-07-01"
-  date_end = ""
+  date_end = "2021-05-13"
   description = """
   
   • Joined Prof. Wang's team in summer 2020 to analyze data. Involved with the 'Finanial Impact of Covid-19' project data management.    Details of my [involvement](https://www.nalingadihoke.com/post/financial-impact-of-covid/).
