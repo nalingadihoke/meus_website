@@ -20,16 +20,21 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "[Stout, LLC](https://www.stout.com/en/)"
+  company = "Data Analyst"
+  company_url = ""
+  location = "Chicago, IL"
+  date_start = "2021-10-08"
+  date_end = ""
+  description = """"""
+
+[[experience]]
+  title = "[Stout, LLC](https://www.stout.com/en/)"
   company = "Data Analyst Intern"
   company_url = ""
   location = "Chicago, IL"
   date_start = "2021-08-02"
-  date_end = ""
-  description = """
-
-• Created a dashboard in PowerBI for analyzing 2M healthcare (prescription) data points with version control in Azure DevOps
-  
-  """
+  date_end = "2021-10-08"
+  description = """"""
 
 [[experience]]
   title = "Gies College of Business, UIUC"
