@@ -1,7 +1,7 @@
 ---
 title: Modelling Radioactive Decay
 summary: Simulating a three step radioactive decay chain with the finite difference approach 
-categories: [numpy, nuclear, finite difference, numerical methods]
+categories: [Python, numpy, nuclear, finite difference, numerical methods]
 tags:
 - Misc
 date: "2019-07-31"

@@ -2,7 +2,7 @@
 title: NSF Big-Data Theoretic
 summary: Extracting and cleaning Event Reports (OCR text data) from Nuclear Power Plants in the U.S.
 tags: [Data Cleaning, Data Extraction]
-categories: [web scraping, data cleaning, nuclear, nltk, regex]
+categories: [Python, web scraping, data cleaning, nuclear, nltk, regex]
 date: "2020-01-31"
 share: false
 

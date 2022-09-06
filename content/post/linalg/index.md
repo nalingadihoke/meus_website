@@ -2,7 +2,7 @@
 title: Pythonic applications of Linear Algebra
 summary: Face recognition using Principal Component Analysis
 tags: [ML]
-categories: [PCA, linalg, ML, numpy]
+categories: [PCA, linalg, ML, numpy, Python]
 date: "2020-11-30"
 share: false
 

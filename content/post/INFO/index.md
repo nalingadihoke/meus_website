@@ -2,7 +2,7 @@
 title: Plotting Potter
 summary: Automatically identifying the names of all characters in a novel ... and visualizing character mentions
 tags: [Data Visualization, Text Analysis]
-categories: [regex, nlp, seaborn, nltk]
+categories: [regex, nlp, seaborn, nltk, Python]
 date: "2020-10-05"
 share: false
 

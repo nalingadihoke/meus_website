@@ -2,7 +2,7 @@
 title: Case Studies - Stout
 summary: two case studies performed
 tags: [Data Cleaning, Data Extraction]
-categories: [ML, data cleaning, pandas]
+categories: [ML, data cleaning, pandas, Python]
 date: "2021-03-23"
 share: false
 
