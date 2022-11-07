@@ -19,12 +19,25 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "[Tesla](https://www.tesla.com/)"
+  company = "Data Analyst"
+  company_url = ""
+  location = "Austin, TX"
+  date_start = "2022-11-07"
+  date_end = ""
+  description = """
+  
+  • Working with the D&A team in IT Applications Engineering.
+  
+  """
+
+[[experience]]
   title = "[Stout Risius Ross](https://www.stout.com/en/)"
   company = "Data Analyst"
   company_url = ""
   location = "Austin, TX"
   date_start = "2021-10-08"
-  date_end = ""
+  date_end = "2022-11-04"
   description = """
   
   • Wrangled 3 datasets for Metric Scoring, with 6M loan records, applied geographic filtering and feature mapping <br/>
