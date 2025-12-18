@@ -4,7 +4,7 @@ summary: Automatically identifying the names of all characters in **Harry potter
 tags:
 - Data Visualization
 - Text Analysis
-date: "2020-10-5"
+date: "2020-10-05"
 share: false
 
 # Optional external URL for project (replaces project detail page).
